@@ -1,5 +1,4 @@
-on:
-  push:
-    branches:
-    - main
-    - release/*
+- name: Build
+  shell: pwsh
+  run: |
+    .\build.ps1
